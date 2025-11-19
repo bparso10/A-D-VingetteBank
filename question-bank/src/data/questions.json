@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1813,
+    "subject": "Microbiology",
+    "subtopic": "Virology",
+    "tags": ["Infectious Disease", "Viruses", "Virus Structure"],
+    "question": "A 6-year-old girl is brought to the physician because of a four-day history of irritation and redness in both eyes. She describes a burning, gritty sensation present in her left eye for the past four days. Two days ago, the same symptoms developed in her right eye. In the morning, her eyes have a flaky crust at the edges. Later in the day, they develop watery discharge. On physical examination, there is diffuse erythema of the conjunctiva bilaterally. Which of the following features of the causative pathogen makes it resistant to physical and chemical disinfectants?",
+    "choices": {
+      "A": "Cytoplasmic replication",
+      "B": "DNA genome",
+      "C": "Helical capsid",
+      "D": "Lack of envelope",
+      "E": "Segmented genome"
+    },
+    "correctAnswer": "D",
+    "explanation": "This girl has viral conjunctivitis caused by adenovirus. Clinical features of conjunctivitis include redness, discharge, and crusting. Patients often describe a burning, gritty sensation. Symptoms begin in one eye but spread to the other within 24 to 48 hours. Viral conjunctivitis resolves without intervention over several days to a week. Adenovirus is transmitted via aerosol droplets, fecal-oral contact, or direct inoculation of the conjunctiva by the fingers. The virus is highly-contagious. Children with conjunctivitis are typically kept home from school to avoid infecting others.",
+    "detailedExplanation": {
+      "correct": "Adenovirus is a non-enveloped, icosahedral, double-stranded DNA virus. The lack of an envelope is responsible for its high resistance to physical and chemical disinfectants, allowing adenovirus to survive on environmental surfaces for long periods. With no envelope, the viral genome is surrounded by a rigid, icosahedral core which provides environmental stability.",
+      "A": "Most RNA viruses replicate in the cytoplasm. In contrast, most DNA viruses, like adenovirus, replicate in the nucleus. The site of viral replication does not confer resistance to physical and chemical disinfectants.",
+      "B": "Although adenovirus has a DNA genome, this is not the cause of its resistance to physical and chemical disinfectants.",
+      "C": "Adenovirus has an icosahedral capsid, not a helical capsid.",
+      "E": "Only RNA viruses display genome segmenting."
+    },
+    "statistics": {
+      "A": 3.70,
+      "B": 4.66,
+      "C": 21.37,
+      "D": 64.23,
+      "E": 6.04
+    },
+    "lastUpdated": "Jul 17, 2020"
+  },
+  {
+    "id": 1001,
+    "subject": "Immunology",
+    "subtopic": "Innate Immunity",
+    "tags": ["Immunology", "Innate Immunity", "Complement System"],
+    "question": "A 45-year-old man presents with recurrent bacterial infections. Laboratory studies reveal decreased C3 levels and normal C1 and C2 levels. Which of the following is the most likely diagnosis?",
+    "choices": {
+      "A": "C1 esterase inhibitor deficiency",
+      "B": "Factor H deficiency",
+      "C": "C2 deficiency",
+      "D": "Properdin deficiency",
+      "E": "C5 deficiency"
+    },
+    "correctAnswer": "B",
+    "explanation": "The patient has recurrent bacterial infections with decreased C3 levels but normal C1 and C2 levels. This pattern suggests a problem with the alternative pathway or regulation of the complement system.",
+    "detailedExplanation": {
+      "correct": "Factor H deficiency leads to uncontrolled activation of the alternative pathway, resulting in consumption of C3. Since the classical pathway (C1, C2) is intact, those levels remain normal. This causes increased susceptibility to encapsulated bacterial infections.",
+      "A": "C1 esterase inhibitor deficiency causes hereditary angioedema and would lead to decreased C1 and C4 levels, not isolated C3 deficiency.",
+      "C": "C2 deficiency would show decreased C2 levels, which contradicts the normal C2 levels in this patient.",
+      "D": "Properdin deficiency causes increased susceptibility to Neisseria infections but doesn't typically cause decreased C3 levels.",
+      "E": "C5 deficiency would not cause decreased C3 levels as C3 is upstream of C5 in the complement cascade."
+    },
+    "statistics": {
+      "A": 15.2,
+      "B": 58.7,
+      "C": 12.3,
+      "D": 8.9,
+      "E": 4.9
+    },
+    "lastUpdated": "Mar 22, 2021"
+  },
+  {
+    "id": 1002,
+    "subject": "Microbiology",
+    "subtopic": "Bacteriology",
+    "tags": ["Microbiology", "Bacteria", "Gram-positive"],
+    "question": "A 3-year-old boy is brought to the emergency department with a high fever, difficulty breathing, and stridor. Physical examination reveals a grayish pseudomembrane in the throat. The causative organism produces an exotoxin that inhibits protein synthesis by which mechanism?",
+    "choices": {
+      "A": "Ribosylation of elongation factor 2",
+      "B": "Cleavage of rRNA",
+      "C": "Inhibition of 60S ribosomal subunit",
+      "D": "Blockage of tRNA binding",
+      "E": "Degradation of mRNA"
+    },
+    "correctAnswer": "A",
+    "explanation": "The clinical presentation of fever, stridor, and a grayish pseudomembrane in the throat is classic for diphtheria, caused by Corynebacterium diphtheriae.",
+    "detailedExplanation": {
+      "correct": "Diphtheria toxin works by ADP-ribosylation of elongation factor 2 (EF-2), which is essential for protein synthesis. This modification inactivates EF-2, preventing translocation of tRNA from the A site to the P site on the ribosome, thereby halting protein synthesis.",
+      "B": "Cleavage of rRNA is the mechanism of action of ricin and Shiga toxin, not diphtheria toxin.",
+      "C": "Inhibition of the 60S ribosomal subunit is the mechanism of chloramphenicol, not diphtheria toxin.",
+      "D": "Blockage of tRNA binding is not the primary mechanism of diphtheria toxin; it prevents EF-2 function instead.",
+      "E": "Degradation of mRNA is not a mechanism used by bacterial toxins for inhibiting protein synthesis."
+    },
+    "statistics": {
+      "A": 72.4,
+      "B": 8.3,
+      "C": 11.2,
+      "D": 5.8,
+      "E": 2.3
+    },
+    "lastUpdated": "Sep 10, 2021"
+  }
+]
