@@ -1,0 +1,127 @@
+.header {
+  background-color: #3f51b5;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.item-count {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.question-id {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.mark-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.mark-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.flag-icon {
+  font-size: 12px;
+}
+
+.header-center {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.nav-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+  border-radius: 4px;
+}
+
+.icon-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.font-controls {
+  display: flex;
+  gap: 5px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 15px;
+}
+
+.font-btn {
+  background-color: white;
+  color: #3f51b5;
+  border: 1px solid white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.font-btn:nth-child(1) {
+  font-size: 12px;
+}
+
+.font-btn:nth-child(2) {
+  font-size: 14px;
+}
+
+.font-btn:nth-child(3) {
+  font-size: 16px;
+}
+
+.font-btn:hover {
+  background-color: #f0f0f0;
+}
